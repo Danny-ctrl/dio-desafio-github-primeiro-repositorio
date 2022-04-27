@@ -1,0 +1,24 @@
+git init - iniciar um projeto que ainda não esta em um repositorio
+
+git clone <https://url-do-link> - clona um código copiandoo para o computador
+
+git branch <nome-da-branch> - cria uma branch local
+
+git branch -d <nome-da-branch> - deleta branch
+
+git checkout <nome-da-ramificação> - mudar de branch
+
+git status - fornece informações sobre a branch atual
+
+git add <arquivo> - adiciona informações ao commit
+
+git commit -m "mensagem explicando a mudança no código" - define um ponto de verificação,caso você precise voltar depois
+
+git push <remote> <nome-do-branch> - envia e salva suas confirmações no repositório remoto
+
+git pull <remote> - puxa as informações do remoto para o local
+
+git revert 'número do hash' - desfaz alteraçoes
+
+git merge <nome-da-branch> - mescla as branchs
+
